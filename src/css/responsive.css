@@ -1,0 +1,45 @@
+@media(max-width: 500px){
+    .container{
+        height: 380px;
+        width: 350px;
+    }
+
+    .conselho{
+        height: 250px;
+    }
+
+    #divisor-desktop{
+        display: none;
+    }
+
+    #divisor-mobile{
+        display: block;
+        width: 290px;
+        position: absolute;;
+        bottom: 40px;
+        left: 31px;
+    }
+
+    #button{
+        transform: translateY(112%);
+    }  
+}
+
+@media(max-width: 360px){
+    .container{
+        width: 280px;
+    }
+
+    #divisor-mobile{
+        width: 250px;
+        left: auto;
+    }
+
+    .conselho h6{
+        font-size: 12px;
+    }
+
+    .conselho h3{
+        font-size: 20px;
+    }
+}
